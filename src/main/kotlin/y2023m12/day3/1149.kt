@@ -1,4 +1,4 @@
-package day3
+package y2023m12.day3
 
 import java.util.*
 import kotlin.math.min

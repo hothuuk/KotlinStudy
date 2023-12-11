@@ -1,4 +1,4 @@
-package day4
+package y2023m12.day4
 
 import java.util.Scanner
 
