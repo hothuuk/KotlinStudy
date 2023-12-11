@@ -1,4 +1,4 @@
-package day3
+package y2023m12.day3
 
 fun main() {
 
