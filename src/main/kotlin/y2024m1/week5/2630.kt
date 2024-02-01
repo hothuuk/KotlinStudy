@@ -37,10 +37,9 @@ fun cutting(n: Int, x: Int, y: Int) {
         white++
         return
     }
-    else {
-        cutting(n / 2, x, y)
-        cutting(n / 2, x + n / 2, y)
-        cutting(n / 2, x, y + n / 2)
-        cutting(n / 2, x + n / 2, y + n / 2)
-    }
+
+    cutting(n / 2, x, y)
+    cutting(n / 2, x + n / 2, y)
+    cutting(n / 2, x, y + n / 2)
+    cutting(n / 2, x + n / 2, y + n / 2)
 }
