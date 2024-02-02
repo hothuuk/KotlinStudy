@@ -44,7 +44,7 @@ fun main() {
     print(sb)
 }
 
-fun dfs(node: Int) {
+private fun dfs(node: Int) {
     visit[node] = true
     sb.append("$node ")
 
@@ -61,7 +61,7 @@ fun dfs(node: Int) {
     }
 }
 
-fun bfs(node: Int) {
+private fun bfs(node: Int) {
     val queue = LinkedList<Int>()
 
     queue.offer(node)
