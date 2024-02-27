@@ -1,4 +1,4 @@
-package y2024m2.week4
+package y2024m2.week5
 
 private lateinit var star: Array<Array<Char>>
 
