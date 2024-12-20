@@ -1,2 +1,9 @@
 .gradle/
 build/
+.tmp/
+caches/
+daemon/
+jdks/
+kotlin-profile/
+native/
+wrapper/
